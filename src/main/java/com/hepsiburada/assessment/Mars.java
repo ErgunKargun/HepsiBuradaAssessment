@@ -25,7 +25,7 @@ public class Mars {
 		
 		rovers.forEach(r -> {
 			r.moveByInstructions();
-			r.getPosition().toString();
+			System.out.println(r.getPosition().toString()); 
 		});
 	}
 }
